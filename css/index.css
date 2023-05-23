@@ -1,0 +1,45 @@
+/* #구글폰트(fonts.google.com)
+서체명 -> Noto Sans */
+
+
+/* font-size:0px;
+color:red;
+display:flex;
+justify-content:space-between;
+margin:0;
+tex-align:center; */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{  box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.ex1{
+    width: 1045px; margin:100px auto;
+    border:1px solid #ddd;
+    background-color: #f6f5f5;
+    padding:80px;
+    justify-content: space-between;
+    text-align:center;
+}
+.ex1 > h2{
+    color: #dc3545;
+    font-size: 36px;
+}
+.ex1 > p{
+    font-size:18px;
+    color:#424d59;
+}
+.ex1 > div{
+    display:flex;
+    justify-content: space-between;
+}
+.ex1 > div > p{width:32%;}
+.ex1 > div > p > img{
+    width:100%;
+    filter: grayscale(100%);
+}
+
+.ex1 > div > p > img:hover{
+    filter: grayscale(0%);
+}
